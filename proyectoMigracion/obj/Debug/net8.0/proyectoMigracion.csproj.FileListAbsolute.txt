@@ -1,0 +1,14 @@
+C:\Users\sergio.paredes-beca\source\repos\proyectoMigracion\proyectoMigracion\bin\Debug\net8.0\proyectoMigracion.exe
+C:\Users\sergio.paredes-beca\source\repos\proyectoMigracion\proyectoMigracion\bin\Debug\net8.0\proyectoMigracion.deps.json
+C:\Users\sergio.paredes-beca\source\repos\proyectoMigracion\proyectoMigracion\bin\Debug\net8.0\proyectoMigracion.runtimeconfig.json
+C:\Users\sergio.paredes-beca\source\repos\proyectoMigracion\proyectoMigracion\bin\Debug\net8.0\proyectoMigracion.dll
+C:\Users\sergio.paredes-beca\source\repos\proyectoMigracion\proyectoMigracion\bin\Debug\net8.0\proyectoMigracion.pdb
+C:\Users\sergio.paredes-beca\source\repos\proyectoMigracion\proyectoMigracion\obj\Debug\net8.0\proyectoMigracion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sergio.paredes-beca\source\repos\proyectoMigracion\proyectoMigracion\obj\Debug\net8.0\proyectoMigracion.AssemblyInfoInputs.cache
+C:\Users\sergio.paredes-beca\source\repos\proyectoMigracion\proyectoMigracion\obj\Debug\net8.0\proyectoMigracion.AssemblyInfo.cs
+C:\Users\sergio.paredes-beca\source\repos\proyectoMigracion\proyectoMigracion\obj\Debug\net8.0\proyectoMigracion.csproj.CoreCompileInputs.cache
+C:\Users\sergio.paredes-beca\source\repos\proyectoMigracion\proyectoMigracion\obj\Debug\net8.0\proyectoMigracion.dll
+C:\Users\sergio.paredes-beca\source\repos\proyectoMigracion\proyectoMigracion\obj\Debug\net8.0\refint\proyectoMigracion.dll
+C:\Users\sergio.paredes-beca\source\repos\proyectoMigracion\proyectoMigracion\obj\Debug\net8.0\proyectoMigracion.pdb
+C:\Users\sergio.paredes-beca\source\repos\proyectoMigracion\proyectoMigracion\obj\Debug\net8.0\proyectoMigracion.genruntimeconfig.cache
+C:\Users\sergio.paredes-beca\source\repos\proyectoMigracion\proyectoMigracion\obj\Debug\net8.0\ref\proyectoMigracion.dll

@@ -1,0 +1,239 @@
+﻿id,id_continent,country,country_en,iso2
+1,1,Andorra,Andorra,AD
+2,2,Emiratos Árabes Unidos,United Arab Emirates,AE
+3,2,Afganistán,Afghanistan,AF
+4,3,Antigua y Barbuda,Antigua and Barbuda,AG
+5,3,Anguila,Anguilla,AI
+6,1,Albania,Albania,AL
+7,1,Armenia,Armenia,AM
+8,3,Antillas Holandesas,Netherlands Antilles,AN
+9,4,Angola,Angola,AO
+10,5,Antartida,Antarctica,AQ
+11,6,Argentina,Argentina,AR
+12,7,American Samoa,American Samoa,AS
+13,8,Austria,Austria,AT
+14,7,Australia,Australia,AU
+15,3,Aruba,Aruba,AW
+16,2,Azerbaijan,Azerbaijan,AZ
+17,1,Bosnia y Herzegowina,Bosnia and Herzegovina,BA
+18,3,Barbados,Barbados,BB
+19,2,Bangladesh,Bangladesh,BD
+20,8,Bélgica,Belgium,BE
+21,4,Burkina Faso,Burkina Faso,BF
+22,8,Bulgaria,Bulgaria,BG
+23,2,Bahréin,Bahrain,BH
+24,4,Burundi,Burundi,BI
+25,4,Benín,Benin,BJ
+26,3,Bermudas,Bermuda,BM
+27,2,Brunéi,Brunei Darussalam,BN
+28,6,Bolivia,Bolivia,BO
+29,6,Brasil,Brazil,BR
+30,3,Bahamas,Bahamas,BS
+31,2,Bhután,Bhutan,BT
+32,4,Botsuana,Botswana,BW
+33,1,Belarus,Belarus,BY
+34,3,Belice,Belize,BZ
+35,9,Canadá,Canada,CA
+36,7,Islas Cocos,Cocos (Keeling) Islands,CC
+37,4,República Democrática del Congo,,CD
+38,4,República Centroafricana,Central African Republic,CF
+39,4,República del Congo,Congo,CG
+40,1,Suiza,Switzerland,CH
+41,4,Costa de Marfíl,Côte d'Ivoire,CI
+42,7,Islas Cook,Cook Islands,CK
+43,6,Chile,Chile,CL
+44,4,Camerún,Cameroon,CM
+45,2,China,China,CN
+46,6,Colombia,Colombia,CO
+47,3,Costa Rica,Costa Rica,CR
+48,3,Cuba,Cuba,CU
+49,4,Cabo Verde,Cape Verde,CV
+50,8,Chipre,Cyprus,CY
+51,8,República Checa,Czech Republic,CZ
+52,8,Alemania,Germany,DE
+53,4,Yibuti,Djibouti,DJ
+54,8,Dinamarca,Denmark,DK
+55,3,Dominica,Dominica,DM
+56,3,República Dominicana,Dominican Republic,DO
+57,4,Argelia,Algeria,DZ
+58,6,Ecuador,Ecuador,EC
+59,8,Estonia,Estonia,EE
+60,4,Egipto,Egypt,EG
+61,4,Sahara Occidental,Western Sahara,EH
+62,4,Eritrea,Eritrea,ER
+63,8,España,Spain,ES
+64,4,Etiopía,Ethiopia,ET
+65,8,Finlandia,Finland,FI
+66,7,Fiyi,Fiji,FJ
+67,7,Micronesia,Micronesia,FM
+68,1,Islas Feroe,Faroe Islands,FO
+69,8,Francia,France,FR
+70,8,Francia metropolitana,"France, Metropolitan",FX
+71,4,Gabón,Gabon,GA
+72,8,Reino Unido,United Kingdom,GB
+73,3,Granada,Grenada,GD
+74,1,Georgia,Georgia,GE
+75,6,Guayana Francesa,French Guiana,GF
+76,4,Ghana,Ghana,GH
+77,1,Gibraltar,Gibraltar,GI
+78,9,Groenlandia,Greenland,GL
+79,4,Gambia,Gambia,GM
+80,6,Guinea,Guiana,GN
+81,3,Guadalupe,Guadeloupe,GP
+82,4,Guinea Ecuatorial,Equatorial Guinea,GQ
+83,8,Grecia,Greece,GR
+84,3,Guatemala,Guatemala,GT
+85,2,Guam,Guam,GU
+86,4,Guinea-Bisáu,Guinea-Bissau,GW
+87,6,Guyana,Guyana,GY
+88,2,Hong Kong,Hong Kong ,HK
+89,7,Islas Heard y McDonald,Heard Island and McDonald Islands,HM
+90,3,Honduras,Honduras,HN
+91,1,Croacia,Croatia,HR
+92,3,Haití,Haiti,HT
+93,8,Hungría,Hungary,HU
+94,2,Indonesia,Indonesia,ID
+95,8,Irlanda,Ireland,IE
+96,2,Israel,Israel,IL
+97,2,India,India,IN
+98,4,Territorio Británico del Océano Índico,British Indian Ocean Territory,IO
+99,2,Irak,Iraq,IQ
+100,2,Irán,Iran,IR
+101,1,Islandia,Iceland,IS
+102,8,Italia,Italy,IT
+103,3,Jamaica,Jamaica,JM
+104,2,Jordania,Jordan,JO
+105,2,Japón,Japan,JP
+106,4,Kenia,Kenya,KE
+107,2,Kirguistán,Kyrgyzstan,KG
+108,2,Cambodia,Cambodia,KH
+109,7,Kiribati,Kiribati,KI
+110,4,Comoras,Comoros,KM
+111,3,San Cristóbal y Nieves,Saint Kitts and Nevis,KN
+112,2,Corea del Norte,North Korea,KP
+113,2,Corea,South Korea,KR
+114,2,Kuwait,Kuwait,KW
+115,3,Islas Caimán,Cayman Islands,KY
+116,2,Kazajistán,Kazakhstan,KZ
+117,2,Laos,Lao People's Democratic Republic,LA
+118,2,Líbano,Lebanon,LB
+119,3,Santa Lucía,Saint Lucia,LC
+120,1,Liechtenstein,Liechtenstein,LI
+121,2,Sri Lanka,Sri Lanka,LK
+122,4,Liberia,Liberia,LR
+123,4,Lesoto,Lesotho,LS
+124,8,Lituania,Lithuania,LT
+125,8,Luxemburgo,Luxembourg,LU
+126,8,Letonia,Latvia,LV
+127,4,Libia,Libya,LY
+128,4,Marruecos,Morocco,MA
+129,1,Mónaco,Monaco,MC
+130,1,Moldavia,Moldova,MD
+131,8,Montenegro,,ME
+132,4,Madagascar,Madagascar,MG
+133,2,Islas Marshall,Marshall Islands,MH
+134,1,Macedonia,Macedonia,MK
+135,4,Malí,Mali,ML
+136,2,Myanmar (Birmania),Myanmar,MM
+137,2,Mongolia,Mongolia,MN
+138,2,Macao,Macau,MO
+139,2,Islas Marianas del Norte,Northern Mariana Islands,MP
+140,3,Martinica,Martinique,MQ
+141,4,Mauritania,Mauritania,MR
+142,3,Montserrat,Montserrat,MS
+143,8,Malta,Malta,MT
+144,4,Mauricio,Mauritius,MU
+145,2,Maldivas,Maldives,MV
+146,4,Malaui,Malawi,MW
+147,9,México,Mexico,MX
+148,2,Malasia,Malaysia,MY
+149,4,Mozambique,Mozambique,MZ
+150,4,Namibia,Namibia,NA
+151,7,Nueva Caledonia,New Caledonia,NC
+152,4,Níger,Niger,NE
+153,7,Isla Norfolk,Norfolk Island,NF
+154,4,Nigeria,Nigeria,NG
+155,3,Nicaragua,Nicaragua,NI
+156,8,Países Bajos,Netherlands,NL
+157,1,Noruega,Norway,NO
+158,2,Nepal,Nepal,NP
+159,7,Nauru,Nauru,NR
+160,7,Niue,Niue,NU
+161,7,Nueva Zelanda,New Zealand,NZ
+162,2,Omán,Oman,OM
+163,3,Panamá,Panama,PA
+164,6,Perú,Peru,PE
+165,7,Polinesia Francesa,French Polynesia,PF
+166,7,Papúa Nueva Guinea,Papua New Guinea,PG
+167,2,Filipinas,Philippines,PH
+168,2,Pakistán,Pakistan,PK
+169,8,Polonia,Poland,PL
+170,9,San Pedro y Miquelón,Saint Pierre and Miquelon,PM
+171,7,Islas Pitcairn,Pitcairn,PN
+172,3,Puerto Rico,Puerto Rico,PR
+173,2,Palestina,Palestina,PS
+174,8,Portugal,Portugal,PT
+175,7,Palaos,Palau,PW
+176,6,Paraguay,Paraguay,PY
+177,2,Catar,Qatar,QA
+178,8,Rumanía,Romania,RO
+179,8,Serbia,,RS
+180,1,Rusia,Russian Federation,RU
+181,4,Ruanda,Rwanda,RW
+182,2,Arabia Saudita,Saudi Arabia,SA
+183,7,Islas Salomón,Solomon Islands,SB
+184,4,Seychelles,Seychelles,SC
+185,4,Sudán,Sudan,SD
+186,8,Suecia,Sweden,SE
+187,2,Singapur,Singapore,SG
+188,4,Isla Santa Elena,St Helena,SH
+189,8,Eslovenia,Slovenia,SI
+190,8,Eslovaquia,Slovakia,SK
+191,4,Sierra Leona,Sierra Leone,SL
+192,1,San Marino,San Marino,SM
+193,4,Senegal,Senegal,SN
+194,4,Somalia,Somalia,SO
+195,6,Surinam,Suriname,SR
+196,4,Sudán del Sur,,SS
+197,4,Santo Tomé y Príncipe,Sao Tome and Principe,ST
+198,3,El Salvador,El Salvador,SV
+199,2,Siria,Syrian Arab Republic,SY
+200,4,Suazilandia,Swaziland,SZ
+201,3,Islas Turcas y Caicos,Turks and Caicos Islands,TC
+202,4,Chad,Chad,TD
+203,,Tierras Australes y Antárticas Francesas,French Southern Territories,TF
+204,4,Togo,Togo,TG
+205,2,Tailandia,Thailand,TH
+206,2,Tayikistán,Tajikistan,TJ
+207,7,Tokelau,Tokelau,TK
+208,2,Timor Oriental,East Timor,TL
+209,2,Turkmenistán,Turkmenistan,TM
+210,4,Túnez,Tunisia,TN
+211,7,Tonga,Tonga,TO
+212,,,,TP
+213,1,Turquía,Turkey,TR
+214,3,Trinidad y Tobago,Trinidad and Tobago,TT
+215,7,Tuvalu,Tuvalu,TV
+216,2,Taiwán,Taiwan,TW
+217,4,Tanzania,Tanzania,TZ
+218,1,Ucrania,Ukraine,UA
+219,4,Uganda,Uganda,UG
+220,9,Islas Ultramarinas Menores de Estados Unidos,United States Minor Outlying Islands,UM
+221,9,Estados Unidos,United States,US
+222,6,Uruguay,Uruguay,UY
+223,2,Uzbequistán,Uzbekistan,UZ
+224,8,Vaticano,,VA
+225,3,San Vicente y las Granadinas,Saint Vincent and the Grenadines,VC
+226,6,Venezuela,Venezuela,VE
+227,3,Islas Vírgenes de los Estados Unidos,"Virgin Islands, U.S.",VI
+228,2,Vietnam,Viet Nam,VN
+229,7,Vanuatu,Vanuatu,VU
+230,7,Wallis y Futuna,Wallis and Futuna,WF
+231,7,Samoa,Samoa,WS
+232,2,Yemen,Yemen,YE
+233,4,Mayotte,Mayotte,YT
+234,1,Yugoslavia,Yugoslavia,YU
+235,4,Sudáfrica,South Africa,ZA
+236,4,Zambia,Zambia,ZM
+237,4,Zaire,Zaire,ZR
+238,4,Zimbabue,Zimbabwe,ZW

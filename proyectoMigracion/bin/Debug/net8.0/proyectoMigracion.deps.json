@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "proyectoMigracion/1.0.0": {
+        "runtime": {
+          "proyectoMigracion.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "proyectoMigracion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

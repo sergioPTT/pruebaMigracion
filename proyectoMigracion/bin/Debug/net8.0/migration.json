@@ -1,0 +1,67 @@
+{
+  "01": {
+    "csv": "educational_center.csv",
+    "tabla": "educational_center"
+  },
+  "02": {
+    "csv": "continent.csv",
+    "tabla": "continent"
+  },
+   "03": {
+    "csv": "campain_calls.csv",
+    "tabla": "campain_call"
+  },
+   "04": {
+    "csv": "campain.csv",
+    "tabla": "campain"
+  },
+   "05": {
+    "csv": "country.csv",
+    "tabla": "country"
+  },
+   "06": {
+    "csv": "market.csv",
+    "tabla": "market"
+  },
+   "07": {
+    "csv": "geographical_area.csv",
+    "tabla": "geographical_area"
+  },
+   "08": {
+    "csv": "vertical.csv",
+    "tabla": "vertical"
+  },
+   "9": {
+    "csv": "study_level.csv",
+    "tabla": "continent"
+  },
+   "10": {
+    "csv": "study_area.csv",
+    "tabla": "constudy_area"
+  },
+   "11": {
+    "csv": "study_faculty.csv",
+    "tabla": "study_faculty"
+  },
+   "12": {
+    "csv": "studies.csv",
+    "tabla": "studies"
+  },
+   "13": {
+    "csv": "bi_studies.csv",
+    "tabla": "bi_studies"
+  },
+   "14": {
+    "csv": "vertical_study.csv",
+    "tabla": "study_faculty"
+  },
+   "25": {
+    "csv": "product_hierarchy.csv",
+    "tabla": "producti_hierarchy"
+  },
+   "16": {
+    "csv": "geographical_structure.csv",
+    "tabla": "study_faculty"
+  }
+}
+

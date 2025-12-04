@@ -1,0 +1,36 @@
+﻿id,vertical,abbreviation
+1,Social,SOC
+2,Finanzas,FINANZAS
+3,Marketing y Comunicación,MK-COM
+4,Organización escolar e idiomas,ORG-IDIOMA
+5,Artes y Humanidades,ART-HUM
+6,Musica,MUS
+7,Grados y menciones,GR-MENC
+8,Business,BUSINESS
+9,Economía,ECON
+10,RRHH,RRHH
+11,Diseño,DISENO
+12,Industria,INDUSTRIA
+13,Matemáticas,MATES
+14,Tecnología,TECNOLOG
+15,Videojuegos,VIDEOJ
+16,Ciencias Políticas ,CPOLITIC
+17,Derecho Público,DERCH-PU
+18,Seguridad,SEG
+19,Biosanitaria (Genérico),BIO-GEN
+20,Biosanitaria (medicos y enfermeros),BIO-MEDICOS
+21,Biosanitaria (nutricion/deporte/bienestar),BIO-NUTRI
+22,Psicología,PSICO
+23,Didácticas,DIDACT
+24,Psicología de la educación,PSICO-EDU
+25,Digital,DIGITAL
+26,MBA,MBA
+27,PRL y SIG,PRL-SIG
+28,Derecho Privado,DERCH-PRI
+29,Biosanitaria (biologos),BIO-BIO
+30,Biosanitaria (farmaceuticos),BIO-FARMA
+31,Gestión Sanitaria,GSANIT
+32,Dentistas y odontólogos,DENTIST
+33,Veterinaria,VET
+34,Administración,ADMIN
+35,Ambiental,AMBIENT

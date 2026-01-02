@@ -3,6 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\sergio.paredes-beca\\source\\repos\\proyectoMigracion\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8B1838E8-9857-4048-BB9C-3BB9382FF825}|proyectoMigracion\\proyectoMigracion.csproj|c:\\users\\sergio.paredes-beca\\source\\repos\\proyectomigracion\\proyectomigracion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B1838E8-9857-4048-BB9C-3BB9382FF825}|proyectoMigracion\\proyectoMigracion.csproj|solutionrelative:proyectomigracion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sergio.paredes-beca\\OneDrive - UNIR\\Escritorio\\dew-paidmediamanager-be\\Dew.PaidMediaManager.Be\\Infrastructure\\Authorization\\RoleAuthorizationRequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,12 +25,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sergio.paredes-beca\\source\\repos\\proyectoMigracion\\proyectoMigracion\\Program.cs",
+              "RelativeDocumentMoniker": "proyectoMigracion\\Program.cs",
+              "ToolTip": "C:\\Users\\sergio.paredes-beca\\source\\repos\\proyectoMigracion\\proyectoMigracion\\Program.cs",
+              "RelativeToolTip": "proyectoMigracion\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAqwCgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T11:39:13.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAAcVAAAAAAAAAADwvxEVAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-01-02T11:39:05.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "RoleAuthorizationRequirement.cs",
               "DocumentMoniker": "C:\\Users\\sergio.paredes-beca\\OneDrive - UNIR\\Escritorio\\dew-paidmediamanager-be\\Dew.PaidMediaManager.Be\\Infrastructure\\Authorization\\RoleAuthorizationRequirement.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\OneDrive - UNIR\\Escritorio\\dew-paidmediamanager-be\\Dew.PaidMediaManager.Be\\Infrastructure\\Authorization\\RoleAuthorizationRequirement.cs",
               "ToolTip": "C:\\Users\\sergio.paredes-beca\\OneDrive - UNIR\\Escritorio\\dew-paidmediamanager-be\\Dew.PaidMediaManager.Be\\Infrastructure\\Authorization\\RoleAuthorizationRequirement.cs",
               "RelativeToolTip": "..\\..\\..\\OneDrive - UNIR\\Escritorio\\dew-paidmediamanager-be\\Dew.PaidMediaManager.Be\\Infrastructure\\Authorization\\RoleAuthorizationRequirement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-22T10:09:09.272Z",
               "EditorCaption": ""

@@ -36,7 +36,7 @@ namespace MigrationApp
 
             // Ruta de los archivos CSV
             //ruta absoluta
-            // string CsvPath = "C:\\Users\\sergio.paredes-beca\\source\\repos\\proyectoMigracion\\proyectoMigracion\\bin\\Debug\\net8.0\\csv";
+             //string CsvPath = "C:\\Users\\sergio.paredes-beca\\source\\repos\\proyectoMigracion\\proyectoMigracion\\bin\\Debug\\net8.0\\csv";
             //ruta relativa
             var CsvPath = Path.Combine(baseDir, "csv");
 

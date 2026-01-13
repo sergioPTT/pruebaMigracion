@@ -1,75 +1,67 @@
 {
   "01": {
-    "csv": "educational_center.csv",
-    "tabla": "educational_center"
+    "csv": "audience_type.csv",
+    "tabla": "audience_type"
   },
   "02": {
-    "csv": "continent.csv",
-    "tabla": "continent"
+    "csv": "bonus_campain.csv",
+    "tabla": "bonus_campain"
   },
    "03": {
-    "csv": "campain_calls.csv",
-    "tabla": "campain_call"
+    "csv": "business_group.csv",
+    "tabla": "business_group"
   },
    "04": {
-    "csv": "campain.csv",
-    "tabla": "campain"
+    "csv": "channel.csv",
+    "tabla": "channel"
   },
    "05": {
-    "csv": "country.csv",
-    "tabla": "country"
+    "csv": "channel_campain.csv",
+    "tabla": "channel_campain"
   },
    "06": {
-    "csv": "market.csv",
-    "tabla": "market"
+    "csv": "description_placement.csv",
+    "tabla": "description_placement"
   },
    "07": {
-    "csv": "geographical_area.csv",
-    "tabla": "geographical_area"
+    "csv": "format.csv",
+    "tabla": "format"
   },
    "08": {
-    "csv": "vertical.csv",
-    "tabla": "vertical"
+    "csv": "funnel_campain.csv",
+    "tabla": "funnel_campain"
   },
    "9": {
-    "csv": "study_level.csv",
-    "tabla": "continent"
+    "csv": "funnel_stage.csv",
+    "tabla": "funnel_stage"
   },
    "10": {
-    "csv": "study_area.csv",
-    "tabla": "constudy_area"
+    "csv": "objetive_campain.csv",
+    "tabla": "objetive_campain"
   },
    "11": {
-    "csv": "study_faculty.csv",
-    "tabla": "study_faculty"
+    "csv": "purchase_model.csv",
+    "tabla": "purchase_model"
   },
    "12": {
-    "csv": "studies.csv",
-    "tabla": "studies"
+    "csv": "size_agreement.csv",
+    "tabla": "size_agreement"
   },
    "13": {
-    "csv": "bi_studies.csv",
-    "tabla": "bi_studies"
+    "csv": "support.csv",
+    "tabla": "support"
   },
    "14": {
-    "csv": "vertical_study.csv",
-    "tabla": "study_faculty"
+    "csv": "tactical_campain.csv",
+    "tabla": "tactical_campain"
   },
-   "25": {
-    "csv": "product_hierarchy.csv",
-    "tabla": "producti_hierarchy"
-  },
+   "15": {
+    "csv": "typology_campain.csv",
+    "tabla": "typology_campain"
+   },
    "16": {
-    "csv": "geographical_structure.csv",
-    "tabla": "study_faculty"
-  },
-   "17": {
-    "csv": "users.csv",
-    "tabla": "users"
-  },
-   "18": {
-    "csv": "roles.csv",
-    "tabla": "roles"
-  }
+    "csv": "new_channel.csv",
+    "tabla": "new_channel"
+   }
 }
 

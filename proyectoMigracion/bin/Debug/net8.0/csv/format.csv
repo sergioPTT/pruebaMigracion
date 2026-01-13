@@ -1,0 +1,100 @@
+﻿id,name,abbreviation,channel_id
+1,Articulo,ARTIC,4
+2,Audio,AUD,4
+3,Audio Midroll,AUD-MID,4
+4,Audio Preroll,AUD-PRE,4
+5,Display,DIS,4
+6,MIX,MIX,4
+7,Podcast,PODCAST,4
+8,Video,VID,4
+9,Articulo,ARTIC,2
+10,Audio,AUD,2
+11,Bday,BDAY,2
+12,BrandContent,BRANDCONT,2
+13,Bweek,BWEEK,2
+14,Carrusel,CARR,2
+15,Discovery,DIS-DISCOV,2
+16,Display Dynamic,DIS-DYN,2
+17,Display Estandar,DIS-EST,2
+18,Display Home,DIS-HOME,2
+19,Imagen+Texto,IMG-TXT,2
+20,MIX,MIX,2
+21,Native,NAT,2
+22,Post,POST,2
+23,Texto,TXT,2
+24,Video,VID,2
+25,Video 15 seg,VID15SEG,2
+26,Video 30 seg,VID30SEG,2
+27,Video 6 seg,VID6SEG,2
+28,HTML,HTML,7
+29,1-1,1-1,8
+30,1-2,1-2,8
+31,2-1,2-1,8
+32,2-2,2-2,8
+33,2-3,2-3,8
+34,2-4,2-4,8
+35,2-5,2-5,8
+36,3-1,3-1,8
+37,3-10,3-10,8
+38,3-11,3-11,8
+39,3-2,3-2,8
+40,3-3,3-3,8
+41,3-4,3-4,8
+42,3-5,3-5,8
+43,3-6,3-6,8
+44,3-7,3-7,8
+45,3-8,3-8,8
+46,3-9,3-9,8
+47,4,4,8
+48,HTML,HTML,8
+49,Articulo,ARTIC,11
+50,Evento,EVENTO,11
+51,Folleto,FOLLETO,11
+52,NotaPrensa,NOTAPRENSA,11
+53,Noticia,NOTICIA,11
+54,QR,QR,11
+55,Articulo,ARTIC,12
+56,Display Estandar,DIS-EST,12
+57,HTML,HTML,12
+58,Imagen+Texto,IMG-TXT,12
+59,LeadGEN,LG,12
+60,MIX,MIX,12
+61,Newsletter,NEWS,12
+62,Texto,TXT,1
+63,N\A,X,13
+64,SMS,SMS,9
+65,Articulo,ARTIC,6
+66,Automático,AUT,6
+67,Carrusel,CARR,6
+68,Carrusel-Imagen,CARR-IMG,6
+69,Carrusel-Video,CARR-VID,6
+70,Collection ,COLLEC,6
+71,Collection-Imagen,COLLEC-IMG,6
+72,Collection-Video,COLLEC-VID,6
+73,ConversationAds,CONV-AD,6
+74,Gif,GIF,6
+75,Imagen,IMG,6
+76,Inmail,INMAIL,6
+77,MIX,MIX,6
+78,Post,POST,6
+79,Post-Imagen,POST-IMG,6
+80,Post-Video,POST-VID,6
+81,Story,STORY,6
+82,Story-Imagen,STORY-IMG,6
+83,Story-Video,STORY-VID,6
+84,Video,VID,6
+85,Mensaje,MENSAJ,10
+86,Articulo,ARTIC,3
+87,Bumper,BUMPER,3
+88,Instream,INSTREAM,3
+89,Masthead,MASTH,3
+90,MIX,MIX,3
+91,Preroll,PREROLL,3
+92,Video,VID,3
+93,Video 15 seg,VID15SEG,3
+94,Video 30 seg,VID30SEG,3
+95,Video 6 seg,VID6SEG,3
+96,YT4A,YT4A,3
+97,YT-Max-Lift,YT-MAXLIFT,3
+98,YT-Max-Lift-Awar,YT-AWARN,3
+99,YT-Reach,YT-REACH,3

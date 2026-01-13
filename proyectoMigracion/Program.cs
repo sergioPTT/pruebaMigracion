@@ -41,8 +41,8 @@ namespace MigrationApp
             var CsvPath = Path.Combine(baseDir, "csv");
 
             //Conexion SQL Server
-            string connString = " Server = (localdb)\\MSSQLLocalDB; Database = Unir; Integrated Security = true";
-
+            //    string connString = " Server = (localdb)\\MSSQLLocalDB; Database = Arc.ArchetypeServices.DB;User Id=sa; TrustServerCertificate=True";
+            string connString = "Server=tcp:localhost,1433;Database=Arc.ArchetypeServices.DB;User Id=sa;Password=Pass@word;TrustServerCertificate=True;";
             //comprueba si existe o no el archivo del JSON
             if (!File.Exists(jsonPath))
             {
@@ -180,6 +180,12 @@ namespace MigrationApp
                 // un DateTable 
                 //crea un objeto sqlBulker
                 //el using asegura que se liberen los recursos al finalizar
+
+                //imprime sus columnas
+                //foreach (DataColumn col in dataTable.Columns)
+                //{
+                //    Console.WriteLine(col.ColumnName);
+                //}
                 using var bulk = new SqlBulkCopy(conn)
                 {
                     //especifica la tabla destino

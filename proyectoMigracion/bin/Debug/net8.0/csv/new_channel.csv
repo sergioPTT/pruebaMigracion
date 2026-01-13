@@ -1,0 +1,14 @@
+﻿id,name,Abbreviation
+1,Search,BUS
+2,Display,DIS
+3,Video,VID
+4,Audio,AUD
+5,Name,NAME
+6,Social,RRSS
+7,Emailing-Externo,MEXT
+8,Emailing-Interno,MINT
+9,SMS,SMS
+10,Social-Organic,RRSS-ORG
+11,Offline,OFF
+12,Portales,PORT
+13,Search-Organic,BUS-ORG

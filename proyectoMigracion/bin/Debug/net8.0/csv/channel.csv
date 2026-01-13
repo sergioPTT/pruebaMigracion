@@ -1,0 +1,514 @@
+﻿id,old_channel,new_channel,support_id
+1,Adwords Busqueda,1,71
+2,Adwords Display,2,72
+3,Adwords Display,2,73
+4,Adwords Display,2,74
+5,Adwords Display,2,75
+6,Adwords For Video,3,72
+7,Adwords For Video,3,160
+8,Adwords Remarketing,2,72
+9,Adwords Remarketing,2,73
+10,Adwords Remarketing,2,74
+11,Adwords Remarketing,2,75
+12,Adwords Remarketing,1,71
+13,Bing,2,20
+14,Bing,1,19
+15,Display Branding,4,13
+16,Display Branding,4,21
+17,Display Branding,4,45
+18,Display Branding,4,49
+19,Display Branding,4,91
+20,Display Branding,4,94
+21,Display Branding,4,98
+22,Display Branding,4,108
+23,Display Branding,4,115
+24,Display Branding,4,127
+25,Display Branding,4,136
+26,Display Branding,4,137
+27,Display Branding,4,156
+28,Display Branding,2,5
+29,Display Branding,2,6
+30,Display Branding,2,7
+31,Display Branding,2,9
+32,Display Branding,2,15
+33,Display Branding,2,21
+34,Display Branding,2,22
+35,Display Branding,2,25
+36,Display Branding,2,27
+37,Display Branding,2,29
+38,Display Branding,2,33
+39,Display Branding,2,34
+40,Display Branding,2,35
+41,Display Branding,2,36
+42,Display Branding,2,40
+43,Display Branding,2,41
+44,Display Branding,2,42
+45,Display Branding,2,44
+46,Display Branding,2,45
+47,Display Branding,2,46
+48,Display Branding,2,47
+49,Display Branding,2,48
+50,Display Branding,2,49
+51,Display Branding,2,52
+52,Display Branding,2,53
+53,Display Branding,2,54
+54,Display Branding,2,55
+55,Display Branding,2,56
+56,Display Branding,2,58
+57,Display Branding,2,59
+58,Display Branding,2,63
+59,Display Branding,2,69
+60,Display Branding,2,70
+61,Display Branding,2,76
+62,Display Branding,2,77
+63,Display Branding,2,79
+64,Display Branding,2,84
+65,Display Branding,2,87
+66,Display Branding,2,90
+67,Display Branding,2,93
+68,Display Branding,2,94
+69,Display Branding,2,95
+70,Display Branding,2,98
+71,Display Branding,2,102
+72,Display Branding,2,103
+73,Display Branding,2,105
+74,Display Branding,2,106
+75,Display Branding,2,107
+76,Display Branding,2,108
+77,Display Branding,2,109
+78,Display Branding,2,110
+79,Display Branding,2,112
+80,Display Branding,2,113
+81,Display Branding,2,114
+82,Display Branding,2,115
+83,Display Branding,2,118
+84,Display Branding,2,119
+85,Display Branding,2,121
+86,Display Branding,2,122
+87,Display Branding,2,123
+88,Display Branding,2,124
+89,Display Branding,2,125
+90,Display Branding,2,126
+91,Display Branding,2,127
+92,Display Branding,2,128
+93,Display Branding,2,129
+94,Display Branding,2,130
+95,Display Branding,2,134
+96,Display Branding,2,135
+97,Display Branding,2,137
+98,Display Branding,2,138
+99,Display Branding,2,139
+100,Display Branding,2,141
+101,Display Branding,2,144
+102,Display Branding,2,147
+103,Display Branding,2,148
+104,Display Branding,2,151
+105,Display Branding,2,153
+106,Display Branding,2,154
+107,Display Branding,2,156
+108,Display Branding,2,157
+109,Display Branding,2,158
+110,Display Branding,3,49
+111,Display Branding,3,56
+112,Display Branding,3,108
+113,Display Branding,3,137
+114,Display Branding,3,160
+115,Display Específico,4,13
+116,Display Específico,4,21
+117,Display Específico,4,45
+118,Display Específico,4,49
+119,Display Específico,4,91
+120,Display Específico,4,94
+121,Display Específico,4,98
+122,Display Específico,4,108
+123,Display Específico,4,115
+124,Display Específico,4,127
+125,Display Específico,4,136
+126,Display Específico,4,137
+127,Display Específico,4,156
+128,Display Específico,2,5
+129,Display Específico,2,6
+130,Display Específico,2,7
+131,Display Específico,2,9
+132,Display Específico,2,15
+133,Display Específico,2,21
+134,Display Específico,2,22
+135,Display Específico,2,25
+136,Display Específico,2,27
+137,Display Específico,2,29
+138,Display Específico,2,33
+139,Display Específico,2,34
+140,Display Específico,2,35
+141,Display Específico,2,36
+142,Display Específico,2,40
+143,Display Específico,2,41
+144,Display Específico,2,42
+145,Display Específico,2,44
+146,Display Específico,2,45
+147,Display Específico,2,46
+148,Display Específico,2,47
+149,Display Específico,2,48
+150,Display Específico,2,49
+151,Display Específico,2,52
+152,Display Específico,2,53
+153,Display Específico,2,54
+154,Display Específico,2,55
+155,Display Específico,2,56
+156,Display Específico,2,58
+157,Display Específico,2,59
+158,Display Específico,2,63
+159,Display Específico,2,69
+160,Display Específico,2,70
+161,Display Específico,2,76
+162,Display Específico,2,77
+163,Display Específico,2,79
+164,Display Específico,2,84
+165,Display Específico,2,87
+166,Display Específico,2,90
+167,Display Específico,2,93
+168,Display Específico,2,94
+169,Display Específico,2,95
+170,Display Específico,2,98
+171,Display Específico,2,102
+172,Display Específico,2,103
+173,Display Específico,2,105
+174,Display Específico,2,106
+175,Display Específico,2,107
+176,Display Específico,2,108
+177,Display Específico,2,109
+178,Display Específico,2,110
+179,Display Específico,2,112
+180,Display Específico,2,113
+181,Display Específico,2,114
+182,Display Específico,2,115
+183,Display Específico,2,118
+184,Display Específico,2,119
+185,Display Específico,2,121
+186,Display Específico,2,122
+187,Display Específico,2,123
+188,Display Específico,2,124
+189,Display Específico,2,125
+190,Display Específico,2,126
+191,Display Específico,2,127
+192,Display Específico,2,128
+193,Display Específico,2,129
+194,Display Específico,2,130
+195,Display Específico,2,134
+196,Display Específico,2,135
+197,Display Específico,2,137
+198,Display Específico,2,138
+199,Display Específico,2,139
+200,Display Específico,2,141
+201,Display Específico,2,144
+202,Display Específico,2,147
+203,Display Específico,2,148
+204,Display Específico,2,151
+205,Display Específico,2,153
+206,Display Específico,2,154
+207,Display Específico,2,156
+208,Display Específico,2,157
+209,Display Específico,2,158
+210,Display Específico,3,43
+211,Display Específico,3,49
+212,Display Específico,3,56
+213,Display Específico,3,108
+214,Display Específico,3,137
+215,Display Específico,3,140
+216,Display Específico,3,160
+217,Display Genérico,4,13
+218,Display Genérico,4,21
+219,Display Genérico,4,45
+220,Display Genérico,4,49
+221,Display Genérico,4,91
+222,Display Genérico,4,94
+223,Display Genérico,4,98
+224,Display Genérico,4,108
+225,Display Genérico,4,115
+226,Display Genérico,4,127
+227,Display Genérico,4,136
+228,Display Genérico,4,137
+229,Display Genérico,4,156
+230,Display Genérico,2,5
+231,Display Genérico,2,6
+232,Display Genérico,2,7
+233,Display Genérico,2,9
+234,Display Genérico,2,15
+235,Display Genérico,2,21
+236,Display Genérico,2,22
+237,Display Genérico,2,25
+238,Display Genérico,2,27
+239,Display Genérico,2,29
+240,Display Genérico,2,33
+241,Display Genérico,2,34
+242,Display Genérico,2,35
+243,Display Genérico,2,36
+244,Display Genérico,2,40
+245,Display Genérico,2,41
+246,Display Genérico,2,42
+247,Display Genérico,2,44
+248,Display Genérico,2,45
+249,Display Genérico,2,46
+250,Display Genérico,2,47
+251,Display Genérico,2,48
+252,Display Genérico,2,49
+253,Display Genérico,2,52
+254,Display Genérico,2,53
+255,Display Genérico,2,54
+256,Display Genérico,2,55
+257,Display Genérico,2,56
+258,Display Genérico,2,58
+259,Display Genérico,2,59
+260,Display Genérico,2,63
+261,Display Genérico,2,69
+262,Display Genérico,2,70
+263,Display Genérico,2,76
+264,Display Genérico,2,77
+265,Display Genérico,2,79
+266,Display Genérico,2,84
+267,Display Genérico,2,87
+268,Display Genérico,2,90
+269,Display Genérico,2,93
+270,Display Genérico,2,94
+271,Display Genérico,2,95
+272,Display Genérico,2,98
+273,Display Genérico,2,102
+274,Display Genérico,2,103
+275,Display Genérico,2,105
+276,Display Genérico,2,106
+277,Display Genérico,2,107
+278,Display Genérico,2,108
+279,Display Genérico,2,109
+280,Display Genérico,2,110
+281,Display Genérico,2,112
+282,Display Genérico,2,113
+283,Display Genérico,2,114
+284,Display Genérico,2,115
+285,Display Genérico,2,118
+286,Display Genérico,2,119
+287,Display Genérico,2,121
+288,Display Genérico,2,122
+289,Display Genérico,2,123
+290,Display Genérico,2,124
+291,Display Genérico,2,125
+292,Display Genérico,2,126
+293,Display Genérico,2,127
+294,Display Genérico,2,128
+295,Display Genérico,2,129
+296,Display Genérico,2,130
+297,Display Genérico,2,134
+298,Display Genérico,2,135
+299,Display Genérico,2,137
+300,Display Genérico,2,138
+301,Display Genérico,2,139
+302,Display Genérico,2,141
+303,Display Genérico,2,144
+304,Display Genérico,2,147
+305,Display Genérico,2,148
+306,Display Genérico,2,151
+307,Display Genérico,2,153
+308,Display Genérico,2,154
+309,Display Genérico,2,156
+310,Display Genérico,2,157
+311,Display Genérico,2,158
+312,Display Genérico,3,49
+313,Display Genérico,3,56
+314,Display Genérico,3,108
+315,Display Genérico,3,137
+316,Display Genérico,3,160
+317,Display-NoUsar,2,108
+318,Facebook,6,64
+319,Facebook,6,66
+320,Facebook,6,76
+321,Facebook,6,107
+322,Facebook,6,129
+323,Facebook,6,144
+324,Facebook,6,156
+325,Instagram,6,89
+326,Instagram,6,107
+327,Instagram,6,144
+328,Linkedin,6,96
+329,Linkedin,6,156
+330,Mailing Externo,7,1
+331,Mailing Externo,7,2
+332,Mailing Externo,7,8
+333,Mailing Externo,7,11
+334,Mailing Externo,7,12
+335,Mailing Externo,7,14
+336,Mailing Externo,7,17
+337,Mailing Externo,7,23
+338,Mailing Externo,7,35
+339,Mailing Externo,7,39
+340,Mailing Externo,7,50
+341,Mailing Externo,7,52
+342,Mailing Externo,7,56
+343,Mailing Externo,7,59
+344,Mailing Externo,7,60
+345,Mailing Externo,7,65
+346,Mailing Externo,7,67
+347,Mailing Externo,7,68
+348,Mailing Externo,7,69
+349,Mailing Externo,7,76
+350,Mailing Externo,7,80
+351,Mailing Externo,7,81
+352,Mailing Externo,7,82
+353,Mailing Externo,7,83
+354,Mailing Externo,7,85
+355,Mailing Externo,7,86
+356,Mailing Externo,7,94
+357,Mailing Externo,7,99
+358,Mailing Externo,7,103
+359,Mailing Externo,7,104
+360,Mailing Externo,7,105
+361,Mailing Externo,7,107
+362,Mailing Externo,7,115
+363,Mailing Externo,7,116
+364,Mailing Externo,7,120
+365,Mailing Externo,7,122
+366,Mailing Externo,7,127
+367,Mailing Externo,7,129
+368,Mailing Externo,7,133
+369,Mailing Externo,7,144
+370,Mailing Externo,7,150
+371,Mailing Interno,8,78
+372,Mailing Interno,8,104
+373,Mailing Interno,8,131
+374,Mailing Interno,9,131
+375,Mailing Interno,10,132
+376,Offline,11,16
+377,Offline,11,26
+378,Offline,11,56
+379,Offline,11,57
+380,Portales,12,3
+381,Portales,12,4
+382,Portales,12,18
+383,Portales,12,23
+384,Portales,12,24
+385,Portales,12,28
+386,Portales,12,30
+387,Portales,12,31
+388,Portales,12,32
+389,Portales,12,37
+390,Portales,12,38
+391,Portales,12,40
+392,Portales,12,50
+393,Portales,12,51
+394,Portales,12,59
+395,Portales,12,61
+396,Portales,12,62
+397,Portales,12,68
+398,Portales,12,69
+399,Portales,12,88
+400,Portales,12,92
+401,Portales,12,97
+402,Portales,12,100
+403,Portales,12,101
+404,Portales,12,103
+405,Portales,12,107
+406,Portales,12,109
+407,Portales,12,111
+408,Portales,12,116
+409,Portales,12,117
+410,Portales,12,120
+411,Portales,12,143
+412,Portales,12,144
+413,Portales,12,145
+414,Portales,12,149
+415,Portales,12,152
+416,Portales,12,157
+417,Portales,12,159
+418,Remarketing,4,45
+419,Remarketing,4,49
+420,Remarketing,4,94
+421,Remarketing,4,98
+422,Remarketing,4,115
+423,Remarketing,4,127
+424,Remarketing,4,137
+425,Remarketing,4,156
+426,Remarketing,2,5
+427,Remarketing,2,6
+428,Remarketing,2,7
+429,Remarketing,2,9
+430,Remarketing,2,15
+431,Remarketing,2,22
+432,Remarketing,2,25
+433,Remarketing,2,27
+434,Remarketing,2,29
+435,Remarketing,2,33
+436,Remarketing,2,34
+437,Remarketing,2,35
+438,Remarketing,2,36
+439,Remarketing,2,40
+440,Remarketing,2,41
+441,Remarketing,2,42
+442,Remarketing,2,44
+443,Remarketing,2,45
+444,Remarketing,2,46
+445,Remarketing,2,47
+446,Remarketing,2,48
+447,Remarketing,2,49
+448,Remarketing,2,52
+449,Remarketing,2,53
+450,Remarketing,2,54
+451,Remarketing,2,55
+452,Remarketing,2,56
+453,Remarketing,2,58
+454,Remarketing,2,59
+455,Remarketing,2,63
+456,Remarketing,2,69
+457,Remarketing,2,70
+458,Remarketing,2,76
+459,Remarketing,2,77
+460,Remarketing,2,79
+461,Remarketing,2,84
+462,Remarketing,2,87
+463,Remarketing,2,90
+464,Remarketing,2,93
+465,Remarketing,2,94
+466,Remarketing,2,95
+467,Remarketing,2,98
+468,Remarketing,2,102
+469,Remarketing,2,103
+470,Remarketing,2,105
+471,Remarketing,2,106
+472,Remarketing,2,107
+473,Remarketing,2,109
+474,Remarketing,2,110
+475,Remarketing,2,112
+476,Remarketing,2,113
+477,Remarketing,2,114
+478,Remarketing,2,115
+479,Remarketing,2,118
+480,Remarketing,2,119
+481,Remarketing,2,121
+482,Remarketing,2,122
+483,Remarketing,2,123
+484,Remarketing,2,124
+485,Remarketing,2,125
+486,Remarketing,2,126
+487,Remarketing,2,127
+488,Remarketing,2,128
+489,Remarketing,2,129
+490,Remarketing,2,130
+491,Remarketing,2,134
+492,Remarketing,2,135
+493,Remarketing,2,137
+494,Remarketing,2,138
+495,Remarketing,2,139
+496,Remarketing,2,141
+497,Remarketing,2,144
+498,Remarketing,2,147
+499,Remarketing,2,148
+500,Remarketing,2,151
+501,Remarketing,2,153
+502,Remarketing,2,154
+503,Remarketing,2,156
+504,Remarketing,2,157
+505,Remarketing,2,158
+506,Remarketing,3,56
+507,Search-Organic-NoUsar,13,108
+508,Social-NoUsar,6,108
+509,Tik Tok,6,107
+510,Tik Tok,6,142
+511,Tik Tok,6,144
+512,Twitter,6,146
+513,Twitter,6,156

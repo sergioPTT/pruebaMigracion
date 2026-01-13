@@ -1,0 +1,242 @@
+﻿id,name,abbreviation,channel_id
+1,CustomAudience,CAUD,4
+2,Genérico,GEN,4
+3,HabitosEscucha,HAB-ESC,4
+4,Interaccion,INTER,4
+5,Intereses,INT,4
+6,LookaLike,LAL,4
+7,MIX,MIX,4
+8,N\A,X,4
+9,RMK,RMK,4
+10,SocioDemo,SYD,4
+11,Afinidad,AFI,2
+12,Competencia,COMP,2
+13,Contextual,CNTX,2
+14,CustomAffinity,CAFF,2
+15,CustomAudience,CAUD,2
+16,CustomIntent,CINT,2
+17,Genérico,GEN,2
+18,Inmarket,INM,2
+19,Intereses,INT,2
+20,lifeevents,LIFEEVENT,2
+21,LookaLike,LAL,2
+22,MIX,MIX,2
+23,N\A,X,2
+24,RMK,RMK,2
+25,Sites,SITE,2
+26,SocioDemo,SYD,2
+27,Temas,TEMA,2
+28,Comportamental,COMPORT,7
+29,Genérico,GEN,7
+30,MIX,MIX,7
+31,N\A,X,7
+32,Site,SITE,7
+33,Admisión enviada,ADMI-ENV,8
+34,Admisión recibida,ADMI-RECI,8
+35,Baja,BAJA,8
+36,Baja Cambios,BAJA-CAMB,8
+37,Baja Definitiva,BAJA-DEF,8
+38,Contactado,CONTAC,8
+39,Cupon Activo,CUP-ACTIV,8
+40,Cupon Generico,CUP-GEN,8
+41,Cupon NoActivo,CUP-NOACT,8
+42,Duplicado,DUPL,8
+43,Financiación no conseguida,FINAN-NOCONS,8
+44,Ilocalizable Contactado sin charla,ILCZ-CONTAC-SC,8
+45,Ilocalizable No contactado,ILCZ-NOCONTAC,8
+46,Lead Activo,LEAD-ACTIV,8
+47,Lead Generico,LEAD-GEN,8
+48,Lead NoActivo,LEAD-NOACT,8
+49,Lista de espera,LIS-ESP,8
+50,Matrícula alta,MAT-ALT,8
+51,Matrícula en gestión,MAT-GEST,8
+52,Matrícula enviada,MAT-ENV,8
+53,Matrícula recibida,MAT-RECI,8
+54,MIX,MIX,8
+55,N\A,X,8
+56,No contactado,NOCONTAC,8
+57,No cumple requisitos Falta experiencia,NCCR-FEXP,8
+58,No cumple requisitos No titulado,NCCR-NOTIT,8
+59,No cumple requisitos Titulación no afín,NCCR-NOTIT-AFIN,8
+60,No cumple requisitos universitarios,NCCR-UNI,8
+61,No hay plazas,NO-PLAZ,8
+62,No interesado Académico,NOINT-ACA,8
+63,No interesado Competencia,NOINT-COMP,8
+64,No interesado Desaparecido,NOINT-DESA,8
+65,No interesado FUNDAE,NOINT-FUNDAE,8
+66,No interesado Gratis,NOINT-GRATIS,8
+67,No interesado Metodología,NOINT-METO,8
+68,No interesado No convalidación,NOINT-CONVA,8
+69,No interesado No oficial,NOINT-NOFI,8
+70,No interesado No tiene tiempo,NOINT-TIEMP,8
+71,No interesado Precio,NOINT-PR,8
+72,No interesado RTC,NOINT-RTC,8
+73,No interesado Sedes,NOINT-SEDES,8
+74,Nueva,NUEVA,8
+75,Otro estudio,OTR-ESTU,8
+76,Pendiente vía acceso,PDTE-ACCES,8
+77,Propuesta,PROP,8
+78,Reserva enviada,RES-ENV,8
+79,Reserva recibida,RES-RECI,8
+80,Siguiente convocatoria,SIG-CONVO,8
+81,Teléfono no válido,TELF-NOVAL,8
+82,Teléfono no válido Datos erróneos,TELF-NOVAL-DE,8
+83,Teléfono no válido Datos falsos,TELF-NOVAL-DF,8
+84,Titulación no existe,TIT-NOEXIS,8
+85,Valorando,VALORAN,8
+86,Volver a llamar,VLLAMAR,8
+87,Genérico,GEN,11
+88,MIX,MIX,11
+89,N\A,X,11
+90,Genérico,GEN,12
+91,Intereses,INT,12
+92,MIX,MIX,12
+93,N\A,X,12
+94,Sites,SITE,12
+95,SocioDemo,SYD,12
+96,Busqueda,BUSQ,1
+97,Générico,GEN,1
+98,MIX,MIX,1
+99,N\A,X,1
+100,RMK,RMK,1
+101,N\A,X,13
+102,Admisión enviada,ADMI-ENV,9
+103,Admisión recibida,ADMI-RECI,9
+104,Baja,BAJA,9
+105,Baja Cambios,BAJA-CAMB,9
+106,Baja Definitiva,BAJA-DEF,9
+107,Contactado,CONTAC,9
+108,Cupon Activo,CUP-ACTIV,9
+109,Cupon Generico,CUP-GEN,9
+110,Cupon NoActivo,CUP-NOACT,9
+111,Duplicado,DUPL,9
+112,Financiación no conseguida,FINAN-NOCONS,9
+113,Ilocalizable Contactado sin charla,ILCZ-CONTAC-SC,9
+114,Ilocalizable No contactado,ILCZ-NOCONTAC,9
+115,Lead Activo,LEAD-ACTIV,9
+116,Lead Generico,LEAD-GEN,9
+117,Lead NoActivo,LEAD-NOACT,9
+118,Lista de espera,LIS-ESP,9
+119,Matrícula alta,MAT-ALT,9
+120,Matrícula en gestión,MAT-GEST,9
+121,Matrícula enviada,MAT-ENV,9
+122,Matrícula recibida,MAT-RECI,9
+123,MIX,MIX,9
+124,N\A,X,9
+125,No contactado,NOCONTAC,9
+126,No cumple requisitos Falta experiencia,NCCR-FEXP,9
+127,No cumple requisitos No titulado,NCCR-NOTIT,9
+128,No cumple requisitos Titulación no afín,NCCR-NOTIT-AFIN,9
+129,No cumple requisitos universitarios,NCCR-UNI,9
+130,No hay plazas,NO-PLAZ,9
+131,No interesado Académico,NOINT-ACA,9
+132,No interesado Competencia,NOINT-COMP,9
+133,No interesado Desaparecido,NOINT-DESA,9
+134,No interesado FUNDAE,NOINT-FUNDAE,9
+135,No interesado Gratis,NOINT-GRATIS,9
+136,No interesado Metodología,NOINT-METO,9
+137,No interesado No convalidación,NOINT-CONVA,9
+138,No interesado No oficial,NOINT-NOFI,9
+139,No interesado No tiene tiempo,NOINT-TIEMP,9
+140,No interesado Precio,NOINT-PR,9
+141,No interesado RTC,NOINT-RTC,9
+142,No interesado Sedes,NOINT-SEDES,9
+143,Nueva,NUEVA,9
+144,Otro estudio,OTR-ESTU,9
+145,Pendiente vía acceso,PDTE-ACCES,9
+146,Propuesta,PROP,9
+147,Reserva enviada,RES-ENV,9
+148,Reserva recibida,RES-RECI,9
+149,Siguiente convocatoria,SIG-CONVO,9
+150,Teléfono no válido,TELF-NOVAL,9
+151,Teléfono no válido Datos erróneos,TELF-NOVAL-DE,9
+152,Teléfono no válido Datos falsos,TELF-NOVAL-DF,9
+153,Titulación no existe,TIT-NOEXIS,9
+154,Valorando,VALORAN,9
+155,Volver a llamar,VLLAMAR,9
+156,Afinidad,AFI,6
+157,Competencia,COMP,6
+158,Genérico,GEN,6
+159,Intereses,INT,6
+160,LookaLike,LAL,6
+161,MIX,MIX,6
+162,N\A,X,6
+163,RMK,RMK,6
+164,SocioDemo,SYD,6
+165,Admisión enviada,ADMI-ENV,10
+166,Admisión recibida,ADMI-RECI,10
+167,Afinidad,AFI,10
+168,Baja,BAJA,10
+169,Baja Cambios,BAJA-CAMB,10
+170,Baja Definitiva,BAJA-DEF,10
+171,Competencia,COMP,10
+172,Contactado,CONTAC,10
+173,Cupon Activo,CUP-ACTIV,10
+174,Cupon Generico,CUP-GEN,10
+175,Cupon NoActivo,CUP-NOACT,10
+176,Duplicado,DUPL,10
+177,Financiación no conseguida,FINAN-NOCONS,10
+178,Genérico,GEN,10
+179,Ilocalizable Contactado sin charla,ILCZ-CONTAC-SC,10
+180,Ilocalizable No contactado,ILCZ-NOCONTAC,10
+181,Intereses,INT,10
+182,Lead Activo,LEAD-ACTIV,10
+183,Lead Generico,LEAD-GEN,10
+184,Lead NoActivo,LEAD-NOACT,10
+185,Lista de espera,LIS-ESP,10
+186,LookaLike,LAL,10
+187,Matrícula alta,MAT-ALT,10
+188,Matrícula en gestión,MAT-GEST,10
+189,Matrícula enviada,MAT-ENV,10
+190,Matrícula recibida,MAT-RECI,10
+191,MIX,MIX,10
+192,N\A,X,10
+193,No contactado,NOCONTAC,10
+194,No cumple requisitos Falta experiencia,NCCR-FEXP,10
+195,No cumple requisitos No titulado,NCCR-NOTIT,10
+196,No cumple requisitos Titulación no afín,NCCR-NOTIT-AFIN,10
+197,No cumple requisitos universitarios,NCCR-UNI,10
+198,No hay plazas,NO-PLAZ,10
+199,No interesado Académico,NOINT-ACA,10
+200,No interesado Competencia,NOINT-COMP,10
+201,No interesado Desaparecido,NOINT-DESA,10
+202,No interesado FUNDAE,NOINT-FUNDAE,10
+203,No interesado Gratis,NOINT-GRATIS,10
+204,No interesado Metodología,NOINT-METO,10
+205,No interesado No convalidación,NOINT-CONVA,10
+206,No interesado No oficial,NOINT-NOFI,10
+207,No interesado No tiene tiempo,NOINT-TIEMP,10
+208,No interesado Precio,NOINT-PR,10
+209,No interesado RTC,NOINT-RTC,10
+210,No interesado Sedes,NOINT-SEDES,10
+211,Nueva,NUEVA,10
+212,Otro estudio,OTR-ESTU,10
+213,Pendiente vía acceso,PDTE-ACCES,10
+214,Propuesta,PROP,10
+215,Reserva enviada,RES-ENV,10
+216,Reserva recibida,RES-RECI,10
+217,RMK,RMK,10
+218,Siguiente convocatoria,SIG-CONVO,10
+219,SocioDemo,SYD,10
+220,Teléfono no válido,TELF-NOVAL,10
+221,Teléfono no válido Datos erróneos,TELF-NOVAL-DE,10
+222,Teléfono no válido Datos falsos,TELF-NOVAL-DF,10
+223,Titulación no existe,TIT-NOEXIS,10
+224,Valorando,VALORAN,10
+225,Volver a llamar,VLLAMAR,10
+226,Afinidad,AFI,3
+227,Competencia,COMP,3
+228,Contextual,CNTX,3
+229,CustomAffinity,CAFF,3
+230,CustomIntent,CINT,3
+231,Genérico,GEN,3
+232,Inmarket,INM,3
+233,Intereses,INT,3
+234,lifeevents,LIFEEVENT,3
+235,LookaLike,LAL,3
+236,MIX,MIX,3
+237,N\A,X,3
+238,RMK,RMK,3
+239,Sites,SITE,3
+240,SocioDemo,SYD,3
+241,Temas,TEMA,3

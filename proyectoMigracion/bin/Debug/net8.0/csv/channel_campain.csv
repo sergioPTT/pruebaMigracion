@@ -1,0 +1,35 @@
+﻿id,name,abbreviation,creativity,channel_id
+1,Adwords Busqueda,BUS,0,1
+2,Adwords Display,DIS,1,2
+3,Adwords For Video,VID,1,3
+4,Adwords Remarketing,DIS,1,2
+5,Bing,DIS,1,2
+6,Bing,BUS,0,1
+7,Display Branding,AUD,1,4
+8,Display Branding,DIS,1,2
+9,Display Branding,VID,1,3
+10,Display Específico,AUD,1,4
+11,Display Específico,DIS,1,2
+12,Display Específico,VID,1,3
+13,Display Genérico,AUD,1,4
+14,Display Genérico,DIS,1,2
+15,Display Genérico,VID,1,3
+16,Display-NoUsar,DIS,1,2
+17,Facebook,RRSS,1,6
+18,Facebook,VID,1,3
+19,Instagram,RRSS,1,6
+20,Instagram,VID,1,3
+21,Linkedin,RRSS,1,6
+22,Mailing Externo,MEXT,1,7
+23,Mailing Interno,MINT,1,8
+24,Mailing Interno,SMS,1,9
+25,Mailing Interno,RRSS-ORG,1,10
+26,Offline,OFF,,11
+27,Portales,PORT,1,12
+28,Remarketing,AUD,1,4
+29,Remarketing,DIS,1,2
+30,Remarketing,VID,1,3
+31,Search-Organic-NoUsar,BUS-ORG,1,13
+32,Social-NoUsar,RRSS,1,6
+33,Tik Tok,RRSS,1,6
+34,Twitter,RRSS,1,6

@@ -1,0 +1,59 @@
+﻿id,name,abbreviation,channel_id
+1,Academias,ACADEM,4
+2,BrandedContent,BRAND-CONT,4
+3,Centro Educativo,CENTRO-EDU,4
+4,Embajador,EMBAJ,4
+5,Influencer,INFL,4
+6,Prospecting,PRS,4
+7,Retargeting,RMK,4
+8,Academias,ACADEM,2
+9,BrandedContent,BRAND-CONT,2
+10,Centro Educativo,CENTRO-EDU,2
+11,Embajador,EMBAJ,2
+12,Influencer,INFL,2
+13,Prospecting,PRS,2
+14,Retargeting,RMK,2
+15,Academias,ACADEM,7
+16,Centro Educativo,CENTRO-EDU,7
+17,Comercial,CIAL,7
+18,Embajador,EMBAJ,7
+19,Eventos,EVE,7
+20,Newsletter,NEWS,7
+21,Prospecting,PRS,7
+22,Prueba,PRU,7
+23,Customer journey,CJ,8
+24,One shot,ONE,8
+25,ArticuloRevista,ART-REVISTA,11
+26,Difusiones,DIFU,11
+27,Evento,EVENT,11
+28,Folleto,FOLLET,11
+29,NotaPrensa,NOTAPRENSA,11
+30,QR,QR,11
+31,BrandedContent,BRAND-CONT,12
+32,Prospecting,PRS,12
+33,Retargeting,RMK,12
+34,Dsa,DSA,1
+35,Marca,MAR,1
+36,MarcaPura,MARCAPURA,1
+37,No-Marca,NOMAR,1
+38,No Aplica,X,13
+39,Customer journey,CJ,9
+40,One shot,ONE,9
+41,Academias,ACADEM,6
+42,BrandedContent,BRAND-CONT,6
+43,Centro Educativo,CENTRO-EDU,6
+44,Embajador,EMBAJ,6
+45,Influencer,INFL,6
+46,Openclass,OPCL,6
+47,Prospecting,PRS,6
+48,Retargeting,RMK,6
+49,Customer journey,CJ,10
+50,One shot,ONE,10
+51,Academias,ACADEM,3
+52,BrandedContent,BRAND-CONT,3
+53,Centro Educativo,CENTRO-EDU,3
+54,Embajador,EMBAJ,3
+55,Influencer,INFL,3
+56,Openclass,OPCL,3
+57,Prospecting,PRS,3
+58,Retargeting,RMK,3

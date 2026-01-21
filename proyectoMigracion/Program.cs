@@ -42,7 +42,7 @@ namespace MigrationApp
 
             //Conexion SQL Server
             //    string connString = " Server = (localdb)\\MSSQLLocalDB; Database = Arc.ArchetypeServices.DB;User Id=sa; TrustServerCertificate=True";
-            string connString = "Server=tcp:localhost,1433;Database=Arc.ArchetypeServices.DB;User Id=sa;Password=Pass@word;TrustServerCertificate=True;";
+            string connString = "Server=tcp:localhost,1433;Database=Unir.DB;User Id=sa;Password=Pass@word;TrustServerCertificate=True;";
             //comprueba si existe o no el archivo del JSON
             if (!File.Exists(jsonPath))
             {
@@ -228,24 +228,40 @@ namespace MigrationApp
         //metodo que pasa por parametro la conexion, el esquema, la tabla y las cabeceras
         static void EnsureTableExists(SqlConnection conn, string schema, string table, List<string> headers)
         {
-            // Si no existe, crear con NVARCHAR(MAX) por columna
-            var cols = string.Join(", ", headers.Select(h => $"{QuoteIdentifier(h)} NVARCHAR(MAX) NULL"));
+            // Columnas dinámicas del CSV + columnas fijas
+            var cols = string.Join(", ", headers.Select(h => $"{QuoteIdentifier(h)} NVARCHAR(MAX) NULL"))
+                       + @",
+                    [created_by] DATETIME2 NOT NULL DEFAULT (SYSDATETIME()),
+                    [updated_by] DATETIME2 NOT NULL DEFAULT (SYSDATETIME()),
+                    [state] INT NOT NULL DEFAULT (1)";
 
-            //crea un script para crear el esquema si no existe y la tabla si no existe
-            var sql = $@" IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = N'{schema}')
-                EXEC('CREATE SCHEMA {QuoteIdentifier(schema)}');
+            var sql = $@"
+        IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = N'{schema}')
+            EXEC('CREATE SCHEMA {QuoteIdentifier(schema)}');
 
-IF OBJECT_ID(N'{schema}.{table}', N'U') IS NULL
-    EXEC('CREATE TABLE {QuoteIdentifier(schema)}.{QuoteIdentifier(table)} ({cols})');";
+        IF OBJECT_ID(N'{schema}.{table}', N'U') IS NULL
+        BEGIN
+            EXEC('CREATE TABLE {QuoteIdentifier(schema)}.{QuoteIdentifier(table)} ({cols})');
+        END
+        ELSE
+        BEGIN
+            IF NOT EXISTS (SELECT 1 FROM sys.columns WHERE Name = 'created_by' AND Object_ID = Object_ID('{schema}.{table}'))
+                ALTER TABLE {QuoteIdentifier(schema)}.{QuoteIdentifier(table)} ADD [created_by] DATETIME2 NOT NULL DEFAULT (SYSDATETIME());
 
-            //creaun objeto sqlCommand para ejecutar el script
+            IF NOT EXISTS (SELECT 1 FROM sys.columns WHERE Name = 'updated_by' AND Object_ID = Object_ID('{schema}.{table}'))
+                ALTER TABLE {QuoteIdentifier(schema)}.{QuoteIdentifier(table)} ADD [updated_by] DATETIME2 NOT NULL DEFAULT (SYSDATETIME());
+
+            IF NOT EXISTS (SELECT 1 FROM sys.columns WHERE Name = 'state' AND Object_ID = Object_ID('{schema}.{table}'))
+                ALTER TABLE {QuoteIdentifier(schema)}.{QuoteIdentifier(table)} ADD [state] INT NOT NULL DEFAULT (1);
+        END
+    ";
+
+            Console.WriteLine(sql); // <-- Añádelo para depurar
+
             using var cmd = conn.CreateCommand();
-            //asigna al comando el texto SQL que queires ejecutar 
             cmd.CommandText = sql;
-            //ejecuta el comando en la base de datos 
             cmd.ExecuteNonQuery();
         }
-
         //metodo que pasa por parametro una lista de cabeceras
         static DataTable BuildDataTable(List<string> headers)
         {
@@ -258,15 +274,6 @@ IF OBJECT_ID(N'{schema}.{table}', N'U') IS NULL
             //devuelve el DataTable
             return dt;
         }
-
-
-        //metodo que cuanta si hay mas , o ; y segun el mas devuelve eso como delimitador 
-        //static char DetectDelimiter(string line)
-        //{
-        //    int commas = line.Count(c => c == ',');
-        //    int semis = line.Count(c => c == ';');
-        //    return semis > commas ? ';' : ',';
-        //}
 
         // Parser sencillo con soporte de comillas dobles y "" como escape
         //este metodo parsea una linea de CSV respetando comillas y demilitadore devolviendo una lista con los campos que contiene 
@@ -333,63 +340,6 @@ IF OBJECT_ID(N'{schema}.{table}', N'U') IS NULL
         static string QuoteIdentifier(string name)
             //si es null lo cambia a vacio si tiene ] lo cambia por ]]
             => $"[{(name ?? "").Replace("]", "]]")}]";
-
-
-        // Mostrar la configuración en consola
-        //  Console.WriteLine("Creación de migración:");
-
-        //Creamos una lista de strings
-        // List<String> listaCsv = new List<String>();
-
-        //recorre migrationConfig y va sacando los diferentes valores 
-        //foreach (var item in migrationConfig)
-        //{
-        //    // Console.WriteLine($"ID: {item.Key} | CSV: {item.Value.Csv} | Tabla: {item.Value.Tabla}");
-
-        //    //metemos todos los valores del CSV en la lista
-        //    listaCsv.Add(item.Value.Csv);
-
-
-        //}
-        //creamos un array de la ruta de los archivso que contiene la carpeta de los CSV
-        //string[] archivosEnCarpeta = Directory.GetFiles(CsvPath);
-
-        //Aqui esta una lista y ya solo coge los nombres de los archivos sin la ruta completa
-        //var nombresEnCarpeta = archivosEnCarpeta.Select(f => Path.GetFileName(f)).ToList();
-
-
-        // string[] nombresEnCarpetaSinEspacios = nombresEnCarpeta.Select(s => s.Trim()).ToArray();
-        //recorremos la lista 
-        //foreach (var i in listaCsv)
-        //{
-
-        //    //comprobamos si es la lista coinciden
-        //    if (nombresEnCarpeta.Contains(i))
-        //    {
-        //        string rutaCompleta = Path.Combine(CsvPath, i);
-
-        //        if (File.Exists(rutaCompleta))
-        //        {
-
-        //                String[] arrayCompletoCSV = File.ReadAllLines(rutaCompleta);
-        //            foreach (var item in arrayCompletoCSV)
-        //            {
-        //                Console.WriteLine(item);
-        //            }
-
-
-        //        }
-        //        else
-        //        {
-        //            Console.WriteLine($" El archivo {i} no existe en la carpeta.");
-        //        }
-
-        //    }
-        //    else
-        //    {
-        //        Console.WriteLine($" {i} NO está en el array.");
-        //    }
-        //}
 
     }
 }

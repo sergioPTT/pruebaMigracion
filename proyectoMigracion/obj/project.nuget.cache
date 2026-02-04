@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "38RWryfecvQ=",
+  "dgSpecHash": "1kfKlH5ObLo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sergio.paredes-beca\\source\\repos\\proyectoMigracion\\proyectoMigracion\\proyectoMigracion.csproj",
+  "projectFilePath": "C:\\Users\\sergio.paredes-beca\\Downloads\\proyectoMigracion\\proyectoMigracion\\proyectoMigracion\\proyectoMigracion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sergio.paredes-beca\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\sergio.paredes-beca\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
@@ -42,15 +42,5 @@
     "C:\\Users\\sergio.paredes-beca\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512",
     "C:\\Users\\sergio.paredes-beca\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "message": "Error al obtener los datos de vulnerabilidad del paquete: No se puede cargar el índice de servicio del origen https://pkgs.dev.azure.com/unirnet/_packaging/Architecture/nuget/v3/index.json.",
-      "projectPath": "C:\\Users\\sergio.paredes-beca\\source\\repos\\proyectoMigracion\\proyectoMigracion\\proyectoMigracion.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\sergio.paredes-beca\\source\\repos\\proyectoMigracion\\proyectoMigracion\\proyectoMigracion.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }

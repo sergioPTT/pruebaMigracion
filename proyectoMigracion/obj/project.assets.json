@@ -1765,11 +1765,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sergio.paredes-beca\\source\\repos\\proyectoMigracion\\proyectoMigracion\\proyectoMigracion.csproj",
+      "projectUniqueName": "C:\\Users\\sergio.paredes-beca\\Downloads\\proyectoMigracion\\proyectoMigracion\\proyectoMigracion\\proyectoMigracion.csproj",
       "projectName": "proyectoMigracion",
-      "projectPath": "C:\\Users\\sergio.paredes-beca\\source\\repos\\proyectoMigracion\\proyectoMigracion\\proyectoMigracion.csproj",
+      "projectPath": "C:\\Users\\sergio.paredes-beca\\Downloads\\proyectoMigracion\\proyectoMigracion\\proyectoMigracion\\proyectoMigracion.csproj",
       "packagesPath": "C:\\Users\\sergio.paredes-beca\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sergio.paredes-beca\\source\\repos\\proyectoMigracion\\proyectoMigracion\\obj\\",
+      "outputPath": "C:\\Users\\sergio.paredes-beca\\Downloads\\proyectoMigracion\\proyectoMigracion\\proyectoMigracion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1837,13 +1837,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error al obtener los datos de vulnerabilidad del paquete: No se puede cargar el índice de servicio del origen https://pkgs.dev.azure.com/unirnet/_packaging/Architecture/nuget/v3/index.json."
-    }
-  ]
+  }
 }

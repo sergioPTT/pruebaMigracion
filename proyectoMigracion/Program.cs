@@ -25,6 +25,7 @@ namespace MigrationApp
 
     class Program
     {
+        [Obsolete]
         static void Main(string[] args)
         {
             var baseDir = AppContext.BaseDirectory;
@@ -42,7 +43,7 @@ namespace MigrationApp
 
             //Conexion SQL Server
             //    string connString = " Server = (localdb)\\MSSQLLocalDB; Database = Arc.ArchetypeServices.DB;User Id=sa; TrustServerCertificate=True";
-            string connString = "Server=tcp:localhost,1433;Database=Unir.DB;User Id=sa;Password=Pass@word;TrustServerCertificate=True;";
+            string connString = "Server=tcp:localhost,1433;Database=Arc.ArchetypeServices.DB;User Id=sa;Password=Pass@word;TrustServerCertificate=True;";
             //comprueba si existe o no el archivo del JSON
             if (!File.Exists(jsonPath))
             {
@@ -226,14 +227,22 @@ namespace MigrationApp
             => $"{QuoteIdentifier(schema)}.{QuoteIdentifier(table)}";
 
         //metodo que pasa por parametro la conexion, el esquema, la tabla y las cabeceras
+        [Obsolete]
         static void EnsureTableExists(SqlConnection conn, string schema, string table, List<string> headers)
         {
-            // Columnas dinámicas del CSV + columnas fijas
-            var cols = string.Join(", ", headers.Select(h => $"{QuoteIdentifier(h)} NVARCHAR(MAX) NULL"))
-                       + @",
-                    [created_by] DATETIME2 NOT NULL DEFAULT (SYSDATETIME()),
-                    [updated_by] DATETIME2 NOT NULL DEFAULT (SYSDATETIME()),
-                    [state] INT NOT NULL DEFAULT (1)";
+            // Filtramos el "id" de las cabeceras para tratarlo de forma especial
+            var dynamicHeaders = headers.Where(h => !h.Equals("id", StringComparison.OrdinalIgnoreCase));
+
+            // Definimos las columnas dinámicas (sin el id)
+            var colsList = dynamicHeaders.Select(h => $"{QuoteIdentifier(h)} NVARCHAR(MAX) NULL").ToList();
+
+            // Insertamos la definición del ID autoincrementable al principio
+            var sqlCols = $@"
+        [id] INT IDENTITY(1,1) PRIMARY KEY, 
+        " + string.Join(", ", colsList) + @",
+        [created_at] DATETIME2 NOT NULL DEFAULT (SYSDATETIME()),
+        [updated_at] DATETIME2 NOT NULL DEFAULT (SYSDATETIME()),
+        [state] BIT NOT NULL DEFAULT (1)";
 
             var sql = $@"
         IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = N'{schema}')
@@ -241,22 +250,8 @@ namespace MigrationApp
 
         IF OBJECT_ID(N'{schema}.{table}', N'U') IS NULL
         BEGIN
-            EXEC('CREATE TABLE {QuoteIdentifier(schema)}.{QuoteIdentifier(table)} ({cols})');
-        END
-        ELSE
-        BEGIN
-            IF NOT EXISTS (SELECT 1 FROM sys.columns WHERE Name = 'created_by' AND Object_ID = Object_ID('{schema}.{table}'))
-                ALTER TABLE {QuoteIdentifier(schema)}.{QuoteIdentifier(table)} ADD [created_by] DATETIME2 NOT NULL DEFAULT (SYSDATETIME());
-
-            IF NOT EXISTS (SELECT 1 FROM sys.columns WHERE Name = 'updated_by' AND Object_ID = Object_ID('{schema}.{table}'))
-                ALTER TABLE {QuoteIdentifier(schema)}.{QuoteIdentifier(table)} ADD [updated_by] DATETIME2 NOT NULL DEFAULT (SYSDATETIME());
-
-            IF NOT EXISTS (SELECT 1 FROM sys.columns WHERE Name = 'state' AND Object_ID = Object_ID('{schema}.{table}'))
-                ALTER TABLE {QuoteIdentifier(schema)}.{QuoteIdentifier(table)} ADD [state] INT NOT NULL DEFAULT (1);
-        END
-    ";
-
-            Console.WriteLine(sql); // <-- Añádelo para depurar
+            EXEC('CREATE TABLE {QuoteIdentifier(schema)}.{QuoteIdentifier(table)} ({sqlCols})');
+        END";
 
             using var cmd = conn.CreateCommand();
             cmd.CommandText = sql;
